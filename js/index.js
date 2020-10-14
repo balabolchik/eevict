@@ -127,6 +127,7 @@ function checkedTheCorrectnesOfTheEnteredLetter (){
         letterIsCorrect=true;
         if(secretWord.indexOf('__')===-1){
             resultsOfGame.score[numberOfPlayer]+=3;
+            alert(`${resultsOfGame.players[numberOfPlayer]}, ви вгадали слово, МОЛОДЕЦЬ!!!`);
             wordIsGuessed=true;
             letterIsGuessed=false;
         };
